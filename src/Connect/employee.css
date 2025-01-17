@@ -1,0 +1,514 @@
+
+
+.employee-container {
+    display: flex;
+    height: 120vh; 
+}
+
+.left {
+    width: 250px; 
+    background: rgba(35, 35, 35, 0.868);
+   
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgb(0, 0, 0); 
+}
+
+
+.header p {
+   font-size: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; 
+}
+
+nav div {
+    
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+nav div:hover {
+    background-color: rgba(255, 255, 255, 0.354); 
+}
+
+nav p {
+    display: flex; 
+    align-items: center;  
+    cursor: pointer; 
+}
+
+nav p svg {
+    margin-right: 10px; 
+}
+
+.right-container{
+   color: blue;
+   text-decoration: underline;
+    position: absolute;
+   top: 1%;
+   left: 30%;
+   cursor: pointer;
+   
+}
+.right-container h5{
+    color: rgb(110, 110, 110);
+    display: flex;
+    text-decoration:dotted;
+     position: absolute;
+    top: -2%;
+    left: 150%;
+    cursor: pointer;
+    font-size: 15px;
+ }
+
+.dash{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    font-family: 'Switzer';
+    color: rgb(0, 94, 255);
+}
+
+.orange{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background: rgba(253, 214, 114, 0.651);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.orange h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.orange h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.orange p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: red;
+}
+
+.sky{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    background: rgba(97, 242, 255, 0.651);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.sky h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sky h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.sky p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(21, 0, 255);
+}
+
+.pink{
+    position: absolute;
+    top: 20%;
+    left: 59%;
+    background: rgba(220, 151, 215, 0.429);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.pink h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pink h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.pink p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 255);
+}
+
+.green{
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    background: rgba(158, 255, 229, 0.429);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.green h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.green h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.green p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.white{
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    background: rgb(203, 202, 202);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.white h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.white h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.white p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.white-1{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    background: rgb(203, 202, 202);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.white-1 h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.white-1 h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.white-1 p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.white-2{
+    position: absolute;
+    top: 42%;
+    left: 59%;
+    background: rgb(203, 202, 202);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.white-2 h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.white-2 h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.white-2 p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.white-3{
+    position: absolute;
+    top: 42%;
+    left: 76%;
+    background: rgb(203, 202, 202);
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.white-3 h5{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.white-3 h4{
+    margin-left: 12%;
+    margin-top: -14%;
+    font-family: 'Switzer';
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.white-3 p{
+    margin-left: 10%;
+    margin-top: -15%;
+    font-family: 'Switzer';
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+.announce{
+    position: absolute;
+    top: 68%;
+    left: 25%;
+    background: rgba(100, 148, 237, 0.411);
+    border-radius: 10px;
+    width: 32vw;
+    height: 50vh;
+}
+
+.announce h4{
+    margin-left: 25px;
+    font-family: 'Switzer';
+    font-weight: 500;
+}
+.out-out{
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 49px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out p{
+   position: absolute;
+   top: 85px;
+   left: 30px;
+    font-size: 10px;
+}
+
+
+.out-out-1{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out-1 h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 120px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out-1 p{
+   position: absolute;
+   top: 153px;
+   left: 30px;
+    font-size: 10px;
+}
+
+.out-out-2{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out-2 h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 190px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out-2 p{
+   position: absolute;
+   top: 226px;
+   left: 30px;
+    font-size: 10px;
+}
+
+.announce-1{
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    background: rgba(100, 148, 237, 0.411);
+    border-radius: 10px;
+    width: 32vw;
+    height: 50vh;
+}
+
+.announce-1 h4{
+    margin-left: 25px;
+    font-family: 'Switzer';
+    font-weight: 500;
+}
+.out-out{
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 50px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out p{
+   position: absolute;
+   top: 85px;
+   left: 30px;
+    font-size: 10px;
+}
+
+
+.out-out-1{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out-1 h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 120px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out-1 p{
+   position: absolute;
+   top: 153px;
+   left: 30px;
+    font-size: 10px;
+}
+
+.out-out-2{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: azure;
+    border-radius: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.out-out-2 h6{
+   margin-left: 10px;
+   position: absolute;
+   top: 190px;
+    font-family: 'Switzer';
+    font-size: 10;
+}
+.out-out-2 p{
+   position: absolute;
+   top: 226px;
+   left: 30px;
+    font-size: 10px;
+}
+
